@@ -7,11 +7,11 @@ class Program
         double min = double.Parse(Console.ReadLine());
         double max = double.Parse(Console.ReadLine());
         int n = int.Parse(Console.ReadLine());
-        WhiteNoise w = new WhiteNoise(min, max);
+        Uniform u = new Uniform(min, max);
 
         while(n > 0)
         {
-            Console.WriteLine(w.Generate());
+            Console.WriteLine(u.Generate());
             n--;
         }
     }

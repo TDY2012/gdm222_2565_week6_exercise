@@ -1,10 +1,10 @@
-public class WhiteNoise
+public class Uniform
 {
     static Random rnd = new Random();
     private double min;
     private double max;
 
-    public WhiteNoise(double min, double max)
+    public Uniform(double min, double max)
     {
         this.min = min;
         this.max = max;
